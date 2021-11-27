@@ -1,0 +1,122 @@
+body {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.icono {
+    fill: white;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.navbar {
+    background: #000f08;
+    padding: 5px;
+}
+
+#charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texto * {
+    margin: 8px;
+}
+
+footer {
+    font-family: "Open sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.vegan img {
+    width: 50%;
+}
+
+.machine img {
+    width: 50%;
+}
+
+.scrum img {
+    width: 50%;
+}
+
+#eventos, .vegan, .machine, .scrum {
+    display: inline-block;
+    text-align: center;
+}
+
+#eventos {
+    display: block;
+}
+
+#ubicacion {
+    text-align: center;
+    padding: 50px;
+}
+
+#ubicacion img {
+    width: 30%;
+}
